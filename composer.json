@@ -1,0 +1,22 @@
+{
+    "name": "aldavigdis/alda-weather",
+    "description": "Display a local Icelandic weather report as a WordPress block",
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Alda Vigdís"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-aldavigdis-weather {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.wp-block-aldavigdis-weather .station-name {
+	margin: 0;
+	font-weight: bold;
+}
+
+.wp-block-aldavigdis-weather .stats {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block-aldavigdis-weather .stat {
+	display: block;
+	margin: 0;
+}
+
+.wp-block-aldavigdis-weather figure{
+	margin: 0;
+	margin-right: 0.2em;
+	line-height: 0;
+}
+
+.wp-block-aldavigdis-weather figure img {
+	width: 100px;
+	height: 100px;
+}

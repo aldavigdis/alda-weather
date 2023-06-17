@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "aldavigdis/weather",
+	"version": "0.1.0",
+	"title": "Alda Weather",
+	"category": "widgets",
+	"icon": "carrot",
+	"description": "Display a local Icelandic weather report",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"stationName": {
+			"type": "string",
+			"enum": [
+				"Reykjavík", "Hafnarfjall", "Ísafjörður", "Hólmavík",
+				"Akureyri", "Egilsstaðaflugvöllur", "Selfoss"
+			],
+			"default": "Reykjavík"
+		},
+		"temperatureUnit": {
+			"type": "string",
+			"enum": [ "celcius", "farenheit", "kelvin" ],
+			"default": "celcius"
+		},
+		"windSpeedUnit": {
+			"type": "string",
+			"enum": [ "ms", "kmh", "mph", "kts" ],
+			"default": "ms"
+		}
+	},
+	"textdomain": "alda-weather",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
