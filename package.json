@@ -16,5 +16,11 @@
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^26.6.0"
-	}
+	},
+	"files": [
+		"readme.txt",
+		"alda-weather.php",
+		"build",
+		"weather-icons"
+	]
 }
