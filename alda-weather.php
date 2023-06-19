@@ -49,7 +49,6 @@ class AldaWeather {
 	function __construct() {
 		add_action( 'init', array( $this, 'block_init' ) );
 		add_action( 'alda_weather_cron', array( $this, 'cron_sync' ) );
-		add_action( 'rest_api_init', array( $this, 'register_weathers_rest_endpoint' ) );
 
 		register_activation_hook(
 			__FILE__,
